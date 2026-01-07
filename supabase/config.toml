@@ -1,0 +1,19 @@
+project_id = "fowcjfqxowejwzafllzf"
+
+[functions.generate-questions]
+verify_jwt = true
+
+[functions.get-vapi-key]
+verify_jwt = false
+
+[functions.generate-feedback]
+verify_jwt = false
+
+[functions.send-offer-email]
+verify_jwt = true
+
+[functions.candidate-start-interview]
+verify_jwt = false
+
+[functions.candidate-complete-interview]
+verify_jwt = false
